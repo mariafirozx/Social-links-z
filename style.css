@@ -86,7 +86,7 @@ body{
     margin-top: 2em;
     left: 9em;
 }
-.user-name{
+#typed-name{
     display: inline-block;
     font-weight: 100;
     margin-right: 5em;
@@ -123,6 +123,9 @@ body{
     font-weight: var(--font_weigth);
 }
 
+#typed{
+    display: inline-block;
+}
 /* #designer::before{
     content: "";
     left: 7%;

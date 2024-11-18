@@ -1,5 +1,16 @@
 {
+  "name": "social-links-z",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "maria",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
+    "parcel": "^2.13.0",
     "typed.js": "^2.1.0"
   }
 }
