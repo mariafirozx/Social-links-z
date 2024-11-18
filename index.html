@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assests/imgs/favicon.png">
   <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
 
   <!--fonts-->
   <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Satisfy&display=swap" rel="stylesheet"> -->
@@ -16,41 +17,53 @@
 <body>
   <main>
     <div class="contents">
+      <img class="user-pro" alt="profile-display" src="assests/imgs/pic.png">
       <div class="info">
-        <!-- <img class="user-pro" alt="profile-display" src="assets/images/pro_pic.png"> -->
-        <h1 class="user-name"> Zahra Firoz</h1>
-        <h2 class="user-location">Malaysia, Kuala Lumpur</h2>
-        <p>"UI/UX Designer", reader and a cinephile. </p>
-      </div>
+        <h1 class="typed user-name"> Hi, I am <span id="name">Zahra Firoz</span>, <br>
+          a <span id="designer">UI/UX Designer,</span> <span id="reader">Reader</span> 
+          <br>& <span id="cine">Cinephile.</span>
+        </h1>
+        <span class="typed"></span>
+        <h2 class="user-about">driven by curiosity and passion for technology, my designs  comes from inspirations and real life issues. with a background in research and computer science, I design products that help people get things done. </h2>
+      
       <div class="socialsBtn">
-        <a href="https://github.com/mariafirozx" target="_blank">
-           <button class="button">GitHub</button>
+        <a href="mailto:zahrafiroz1998@gmail.com" target="_blank">
+           <img class="email button" src="./assests/imgs/email.png"> </img>
         </a>
-        <a href="mailto:mariafiroz9@gmail.com" target="_blank">
-          <button class="button">Email Me</button>
+        <a href="https://dribbble.com/zahrafiroz" target="_blank">
+          <img class="dribble button" src="./assests/imgs/dribble.png"> </img>
         </a>
-        <a href="https://www.linkedin.com/in/marya-fairoz/" target="_blank">
-           <button class="button">LinkedIn</button>
+        <a href="https://www.linkedin.com/in/zahrah-fairoz/" target="_blank">
+          <img class="linkedin button" src="./assests/imgs/linkedin.png"> </img>
         </a>
-        <button class="button">Twitter</button>
-        <button class="button">Instagram</button>
+        <a href="https://github.com/zahra-98" target="_blank">
+          <img class="github button" src="./assests/imgs/github.png"> </img>
+        </a>
       </div>
+    </div>
       <!-- <div class="wrapper">
         <video autoplay loop muted>
           <source src="assets/video/galaxy.mp4" type="video/mp4">
         </video>
       </div> -->
 
-    </div>
-    <!-- <div class="wrapper">
-        <video autoplay loop muted>
-          <source src="assets/video/galaxy.mp4" type="video/mp4">
-        </video>
-      </div> -->
+    <!-- </div>
+    <div class="wrapper">
+      <img id="walking-vid" src="/assests/vids/walkTwo.gif" >
+    </img>
+       -->
+      <!-- <video autoplay loop muted>
+        <source src="/assests/vids/walking-anim.mp4" type="video/mp4">
+
+      </video> -->
+      
+        
+     
+      </div>
   </main>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
 </body>
 </html>
