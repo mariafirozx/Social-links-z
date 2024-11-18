@@ -595,14 +595,16 @@ var _typedJs = require("typed.js");
 var _typedJsDefault = parcelHelpers.interopDefault(_typedJs);
 const type = new (0, _typedJsDefault.default)('#typed', {
     strings: [
-        'a <span id="designer">UI/UX Designer,</span> <span id="reader">Reader,</span> <br> &amp; <span id="cine">Cinephile.</span>'
+        'a <span id="designer">UI/UX Designer,</span> <span id="reader">Reader,</span> <br> &amp; <span id="cine">Cinephile.</br></span>'
     ],
     typeSpeed: 40,
     backSpeed: 0,
     startDelay: 500,
     cursorChar: '_',
-    showCursor: false,
-    loop: false
+    loop: false,
+    onComplete: ()=>{
+        document.querySelector('.typed-cursor').style.display = 'none';
+    }
 });
 console.log(type);
 

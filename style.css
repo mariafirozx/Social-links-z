@@ -126,18 +126,13 @@ body{
 #typed{
     display: inline-block;
 }
-/* #designer::before{
-    content: "";
-    left: 7%;
-    position: absolute;
-    bottom: 16px;
-    width: 150px;
-    height: 14px;
-    transform: skew(-12deg) translateX(-50%);
-    background: rgba(238,111,87,0.5);
-    z-index: -1;
+.typed-cursor{
+font-weight: 900;
+  box-shadow: 0px 1px;
+  font-size: 1.3em;
+}
 
-} */
+
 .user-about{
     position: relative;
     font-size: 15px;

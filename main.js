@@ -13,14 +13,17 @@ const type = new Typed('#typed',{
     strings: [
     'a <span id="designer">UI/UX Designer,'+
     '</span> <span id="reader">Reader,'+ 
-    '</span> <br> &amp; <span id="cine">Cinephile.</span>'
+    '</span> <br> &amp; <span id="cine">Cinephile.</br></span>'
 ],
     typeSpeed: 40,
     backSpeed: 0,
     startDelay: 500,
     cursorChar: '_',
-    showCursor: false,
+
     loop: false,
+    onComplete: () =>{
+        document.querySelector('.typed-cursor').style.display ='none';
+    }
     // onComplete:() =>{
     //     document.getElementById('typed').innerHTML =
     //     '<span id="designer">UI/UX Designer,'+
