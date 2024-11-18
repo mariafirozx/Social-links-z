@@ -18,7 +18,7 @@ body{
     text-align: center;
     font-family: "Libre Baskerville", serif;
     overflow: hidden;
-    background-image: url('./assests/imgs/tryin1.jpg');
+    background-image: url('./assests/imgs/paper-texture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -144,8 +144,8 @@ font-weight: 900;
     width: 44em;
     line-height: 2em;
     color: #6c6767;
-    animation: onLoadAnim 10s;
-    transition: ease 14s;
+    /* animation: onLoadAnim 10s;
+    transition: ease 14s; */
 }
 
 .socialsBtn > *{

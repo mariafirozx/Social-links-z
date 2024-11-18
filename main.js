@@ -6,7 +6,8 @@
 
 // console.log(type);
 
-import Typed from "typed.js";
+// import Typed from "typed.js";
+import Typed from './node_modules/typed.js/dist/typed.module.js';
 
 
 const type = new Typed('#typed',{
