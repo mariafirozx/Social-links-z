@@ -1,0 +1,174 @@
+@import "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap";
+:root {
+  --font_weigth: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  min-height: 100vh;
+  cursor: url("https://icons8.com/icon/12944/pen");
+  opacity: 1;
+  background-image: url("paper-texture.13075f28.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  place-content: center;
+  font-family: Libre Baskerville, serif;
+  animation: 3s forwards onLoadAnim;
+  display: grid;
+  overflow: hidden;
+}
+
+.contents {
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-bottom: 4em;
+  padding-left: 25em;
+  display: flex;
+}
+
+.contents > * {
+  margin: 0;
+}
+
+.info {
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  padding: 2px 15px 15px;
+  position: relative;
+}
+
+.info > * {
+  margin: 0;
+}
+
+.user-pro {
+  border-radius: 50%;
+  max-width: 26em;
+  margin-top: 2em;
+  margin-bottom: 6em;
+  position: fixed;
+  left: 9em;
+}
+
+#typed-name {
+  color: #3f3e3e;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 5em;
+  padding-bottom: .24rem;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 69px;
+  display: inline-block;
+}
+
+#name {
+  font-weight: var(--font_weigth);
+  background-color: #d6d0ff;
+}
+
+#designer {
+  color: #f76cfe;
+  font-family: Caveat, cursive;
+  font-weight: var(--font_weigth);
+}
+
+#reader {
+  color: #a397ee;
+  font-family: Caveat, cursive;
+  font-weight: var(--font_weigth);
+}
+
+#cine {
+  color: #0000dc;
+  font-family: Caveat, cursive;
+  font-weight: var(--font_weigth);
+}
+
+#typed {
+  display: inline-block;
+}
+
+.typed-cursor {
+  font-size: 1.3em;
+  font-weight: 900;
+  box-shadow: 0 1px;
+}
+
+.user-about {
+  text-align: left;
+  text-justify: auto;
+  overflow-wrap: break-word;
+  color: #6c6767;
+  justify-content: space-around;
+  width: 44em;
+  margin-top: 1em;
+  font-size: 15px;
+  line-height: 2em;
+  transition: all 14s;
+  animation: 10s onLoadAnim;
+  position: relative;
+}
+
+.socialsBtn > * {
+  margin: 0;
+}
+
+.socialsBtn {
+  margin-left: 7em;
+  padding-top: 4em;
+  padding-bottom: 10rem;
+  position: fixed;
+}
+
+.dribble, .linkedin, .github {
+  width: 40px;
+  height: 40px;
+}
+
+.email, .dribble, .linkedin {
+  width: 39px;
+  height: 39px;
+}
+
+.button {
+  --button_radius: .75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #fec76f;
+  border-radius: var(--button_radius);
+  gap: 20px;
+  margin-left: 2em;
+  transition: all .3s ease-in-out;
+  position: relative;
+  transform: rotate(15deg)scale(1.4);
+}
+
+.button:hover {
+  transform: rotate(0)scale(1);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+@keyframes onLoadAnim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
