@@ -21,6 +21,7 @@ body {
   background-size: cover;
   place-content: center;
   font-family: Libre Baskerville, serif;
+  animation: 3s forwards onLoadAnim;
   display: grid;
   overflow: hidden;
 }
@@ -115,6 +116,8 @@ body {
   margin-top: 1em;
   font-size: 15px;
   line-height: 2em;
+  transition: all 14s;
+  animation: 10s onLoadAnim;
   position: relative;
 }
 

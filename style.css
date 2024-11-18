@@ -25,8 +25,8 @@ body{
 
     cursor: url('https://icons8.com/icon/12944/pen');
     opacity: 1;
-    /* animation: onLoadAnim  3s; 
-    animation-fill-mode: forwards; */
+    animation: onLoadAnim  3s; 
+    animation-fill-mode: forwards;
     
     /* background-image: url(/assests/imgs/Catalogo\ Fidaty\ Esselunga.jpg);
     background-repeat: no-repeat;
@@ -144,6 +144,8 @@ font-weight: 900;
     width: 44em;
     line-height: 2em;
     color: #6c6767;
+    animation: onLoadAnim 10s;
+    transition: ease 14s;
 }
 
 .socialsBtn > *{
