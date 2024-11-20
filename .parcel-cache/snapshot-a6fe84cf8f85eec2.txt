@@ -1,4 +1,4 @@
-4252
+4249
 73C:\Users\maria\Social-links-z\node_modules\semver\functions\prerelease.js133765176480827714 0
 77C:\Users\maria\Social-links-z\node_modules\@parcel\packager-js\lib\helpers.js133765176478818066 0
 37C:\Users\maria\Social-links-z\assests133757188488713469 1
@@ -14,7 +14,7 @@
 73C:\Users\maria\Social-links-z\node_modules\@parcel\core\lib\AssetGraph.js133765176480325748 0
 80C:\Users\maria\Social-links-z\node_modules\@swc\helpers\src\_new_arrow_check.mjs133765176485752467 0
 90C:\Users\maria\Social-links-z\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133765176475487887 0
-34C:\Users\maria\Social-links-z\dist133765737133455988 1
+34C:\Users\maria\Social-links-z\dist133765736851853050 1
 49C:\Users\maria\Social-links-z\node_modules\srcset133765176476704419 1
 89C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\addeventlistener.js133765176478141049 0
 119C:\Users\maria\Social-links-z\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\maps\xml.json133765176478656887 0
@@ -726,7 +726,7 @@
 78C:\Users\maria\Social-links-z\node_modules\type-fest\source\literal-union.d.ts133765176479824213 0
 95C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js133765176483313438 0
 86C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\pad-start-end.js133765176487305211 0
-45C:\Users\maria\Social-links-z\dist\index.html133765737133371854 0
+45C:\Users\maria\Social-links-z\dist\index.html133765736850977809 0
 58C:\Users\maria\Social-links-z\node_modules\lmdb\caching.js133765176483313438 0
 63C:\Users\maria\Social-links-z\node_modules\htmlnano\index.d.mts133765176482815722 0
 72C:\Users\maria\Social-links-z\node_modules\type-fest\source\mutable.d.ts133765176480130747 0
@@ -4228,15 +4228,12 @@
 58C:\Users\maria\Social-links-z\node_modules\.bin\parcel.cmd133765176491655972 0
 58C:\Users\maria\Social-links-z\node_modules\.bin\parcel.ps1133765176491655972 0
 54C:\Users\maria\Social-links-z\node_modules\.bin\semver133765176491655972 0
-52C:\Users\maria\Social-links-z\dist\bg01.f840d64e.jpg133765737133217932 0
 53C:\Users\maria\Social-links-z\dist\email.f9626b08.png133765183730835838 0
 55C:\Users\maria\Social-links-z\dist\favicon.42c5e9c7.png133765183730866180 0
 52C:\Users\maria\Social-links-z\dist\img0.3daa5e35.png133765736850878519 0
 52C:\Users\maria\Social-links-z\dist\img0.aa6ebe08.png133765183731713561 0
 53C:\Users\maria\Social-links-z\dist\index.3a01df49.css133765736851789966 0
 52C:\Users\maria\Social-links-z\dist\index.63aff760.js133765736851659933 0
-53C:\Users\maria\Social-links-z\dist\index.95597f69.css133765737133384925 0
-57C:\Users\maria\Social-links-z\dist\index.95597f69.css.map133765737133446002 0
 52C:\Users\maria\Social-links-z\dist\index.b692df8a.js133765183732348857 0
 56C:\Users\maria\Social-links-z\dist\index.b692df8a.js.map133765183732457652 0
 53C:\Users\maria\Social-links-z\dist\index.dff22ea2.css133765183732348857 0
