@@ -18,11 +18,11 @@ body{
     text-align: center;
     font-family: "Libre Baskerville", serif;
     overflow: hidden;
-    background-color: #eaeaea;
-    /* background-image: url('./assests/imgs/paper-texture.jpg');
+    /* background-color: #eaeaea; */
+    background-image: url('./assests/imgs/bg01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%; */
+    height: 100%;
 
     cursor: url('https://icons8.com/icon/12944/pen');
     opacity: 1;
