@@ -592,9 +592,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 // console.log(type);
 // import Typed from "typed.js";
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _typedModuleJs = require("./node_modules/typed.js/dist/typed.module.js");
-var _typedModuleJsDefault = parcelHelpers.interopDefault(_typedModuleJs);
-const type = new (0, _typedModuleJsDefault.default)('#typed', {
+var _typedJs = require("typed.js");
+var _typedJsDefault = parcelHelpers.interopDefault(_typedJs);
+const type = new (0, _typedJsDefault.default)('#typed', {
     strings: [
         'a <span id="designer">UI/UX Designer,</span> <span id="reader">Reader,</span> <br> &amp; <span id="cine">Cinephile.</br></span>'
     ],
@@ -609,7 +609,7 @@ const type = new (0, _typedModuleJsDefault.default)('#typed', {
 });
 console.log(type);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./node_modules/typed.js/dist/typed.module.js":"6M0L2"}],"gkKU3":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","typed.js":"6M0L2"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
