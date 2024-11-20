@@ -7,7 +7,7 @@
 // console.log(type);
 
 // import Typed from "typed.js";
-import Typed from './typed.js';
+import Typed from 'typed.js';
 
 const type = new Typed('#typed',{
     strings: [
