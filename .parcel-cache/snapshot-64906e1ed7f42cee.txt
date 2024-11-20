@@ -33,7 +33,7 @@
 73C:\Users\maria\Social-links-z\node_modules\@parcel\core\lib\AssetGraph.js133765868232848792 0
 80C:\Users\maria\Social-links-z\node_modules\@swc\helpers\src\_new_arrow_check.mjs133765868263985411 0
 90C:\Users\maria\Social-links-z\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133765868235471754 0
-34C:\Users\maria\Social-links-z\dist133765880230008521 1
+34C:\Users\maria\Social-links-z\dist133765888581969062 1
 57C:\Users\maria\Social-links-z\node_modules\tslib\tslib.js133765868277621785 0
 40C:\Users\maria\Social-links-z\index.html133765868231523464 0
 80C:\Users\maria\Social-links-z\node_modules\@parcel\core\src\SymbolPropagation.js133765868233194233 0
@@ -43,7 +43,7 @@
 72C:\Users\maria\Social-links-z\node_modules\json-parse-even-better-errors133765868272632375 1
 74C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\regions\ST.js133765868268681640 0
 42C:\Users\maria\Social-links-z\node_modules133765868278001800 1
-37C:\Users\maria\Social-links-z\main.js133765868231533465 0
+37C:\Users\maria\Social-links-z\main.js133765888342743322 0
 79C:\Users\maria\Social-links-z\node_modules\@parcel\watcher\src\watchman\BSER.cc133765868257018701 0
 57C:\Users\maria\Social-links-z\node_modules\domelementtype133765868270126482 1
 87C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\css3-boxsizing.js133765868265744052 0
@@ -722,7 +722,7 @@
 78C:\Users\maria\Social-links-z\node_modules\type-fest\source\literal-union.d.ts133765868277701786 0
 95C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js133765868265129029 0
 86C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\pad-start-end.js133765868266873432 0
-45C:\Users\maria\Social-links-z\dist\index.html133765880229918518 0
+45C:\Users\maria\Social-links-z\dist\index.html133765885686038168 0
 58C:\Users\maria\Social-links-z\node_modules\lmdb\caching.js133765868274628417 0
 63C:\Users\maria\Social-links-z\node_modules\htmlnano\index.d.mts133765868271667385 0
 72C:\Users\maria\Social-links-z\node_modules\type-fest\source\mutable.d.ts133765868277721798 0
@@ -3154,7 +3154,7 @@
 86C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\web-animation.js133765868267526101 0
 89C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\web-app-manifest.js133765868267536125 0
 86C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\web-bluetooth.js133765868267546101 0
-56C:\Users\maria\Social-links-z\dist\index.63aff760.js.map133765878804004375 0
+56C:\Users\maria\Social-links-z\dist\index.63aff760.js.map133765888581969062 0
 83C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\web-serial.js133765868267556105 0
 73C:\Users\maria\Social-links-z\node_modules\@parcel\watcher\src\DirTree.hh133765868256887855 0
 79C:\Users\maria\Social-links-z\node_modules\caniuse-lite\data\features\webgpu.js133765868267586104 0
@@ -4238,7 +4238,7 @@
 52C:\Users\maria\Social-links-z\dist\img0.3daa5e35.png133765878803664396 0
 52C:\Users\maria\Social-links-z\dist\img0.aa6ebe08.png133765880229107745 0
 53C:\Users\maria\Social-links-z\dist\index.3a01df49.css133765878804148186 0
-52C:\Users\maria\Social-links-z\dist\index.63aff760.js133765878803984379 0
+52C:\Users\maria\Social-links-z\dist\index.63aff760.js133765888581929044 0
 53C:\Users\maria\Social-links-z\dist\index.95597f69.css133765880229928525 0
 57C:\Users\maria\Social-links-z\dist\index.95597f69.css.map133765880229988526 0
 52C:\Users\maria\Social-links-z\dist\index.b692df8a.js133765880229928525 0
