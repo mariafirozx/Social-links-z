@@ -148,9 +148,10 @@ body {
   --button_color: #e8e8e8;
   --button_outline_color: #fec76f;
   border-radius: var(--button_radius);
+  -webkit-transition: all .3s ease-in-out;
   gap: 20px;
   margin-left: 2em;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
   position: relative;
   transform: rotate(15deg)scale(1.4);
 }
