@@ -224,10 +224,80 @@ a:link{
 /* media queries 
  */
 
- /* @media (max-width: 768px){
-    body{
-        place-content: flex-start;
-        overflow: auto;
+ /* Base styles are already defined above */
+
+@media (max-width: 768px) {
+    body {
+        place-content: flex-start; /* Align content at the top */
+        overflow: auto; /* Prevent content clipping */
         padding: 10px;
     }
- } */
+
+    .contents {
+        flex-direction: column;
+        padding: 0; /* Remove excessive padding */
+        margin: 0 auto;
+    }
+
+    .contents .user-pro {
+        margin: 0 auto;
+        position: relative; /* Remove fixed positioning */
+        max-width: 90%; /* Adjust width for smaller screens */
+    }
+
+    #typed-name {
+        font-size: 24px;
+        line-height: 36px;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .user-about {
+        width: 90%;
+        margin: 1rem auto;
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+
+    .socialsBtn {
+        padding: 1rem 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .button {
+        transform: rotate(0) scale(1.2); /* Adjust button size for smaller viewports */
+        margin: 0 auto;
+    }
+
+    .dribble, .linkedin, .github, .email {
+        width: 30px;
+        height: 30px; /* Adjust icon sizes */
+    }
+
+    #typed {
+        font-size: 29px; /* Adjust typed text size */
+    }
+}
+
+@media (max-width: 480px) {
+    #typed-name {
+        font-size: 33px;
+        line-height: 28px;
+    }
+
+    .user-about {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .contents .user-pro {
+        max-width: 90%;
+    }
+
+    .button {
+        transform: scale(1); /* Adjust button for smaller screens */
+    }
+}

@@ -172,4 +172,80 @@ a:link {
     opacity: 1;
   }
 }
+
+@media (width <= 768px) {
+  body {
+    place-content: flex-start;
+    padding: 10px;
+    overflow: auto;
+  }
+
+  .contents {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .contents .user-pro {
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #typed-name {
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .user-about {
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 14px;
+    line-height: 1.6em;
+  }
+
+  .socialsBtn {
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+  }
+
+  .button {
+    margin: 0 auto;
+    transform: rotate(0)scale(1.2);
+  }
+
+  .dribble, .linkedin, .github, .email {
+    width: 30px;
+    height: 30px;
+  }
+
+  #typed {
+    font-size: 29px;
+  }
+}
+
+@media (width <= 480px) {
+  #typed-name {
+    font-size: 33px;
+    line-height: 28px;
+  }
+
+  .user-about {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .contents .user-pro {
+    max-width: 90%;
+  }
+
+  .button {
+    transform: scale(1);
+  }
+}
 /*# sourceMappingURL=index.3a01df49.css.map */
