@@ -22,7 +22,8 @@ body{
     background-image: url('./assests/imgs/bg01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: auto;
+    width: 100%;
 
     cursor: url('https://icons8.com/icon/12944/pen');
     opacity: 1;
@@ -43,11 +44,14 @@ body{
     display: flex;
     justify-content: center;
     padding-left: 25em;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 
 .contents > *{
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* .wrapper{
@@ -78,15 +82,15 @@ body{
     margin: 0;
 }
 
-.user-pro{
+.contents .user-pro{
     position: fixed;
-    width: 44em;
+    max-width: 100%;
+    height: auto;
+    display: block;
     /* border-radius: 50%; */
 
-    bottom: 10em;
-    margin-top: 2em;
-    left: 10em;
-    padding-right: 60px;
+    margin-right: 70em;
+   
 }
 #typed-name{
     display: inline-block;
@@ -214,3 +218,16 @@ a:link{
         opacity: 1;
     }
 }
+
+
+
+/* media queries 
+ */
+
+ /* @media (max-width: 768px){
+    body{
+        place-content: flex-start;
+        overflow: auto;
+        padding: 10px;
+    }
+ } */

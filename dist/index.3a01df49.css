@@ -12,7 +12,8 @@
 
 body {
   text-align: center;
-  height: 100%;
+  width: 100%;
+  height: auto;
   min-height: 100vh;
   cursor: url("https://icons8.com/icon/12944/pen");
   opacity: 1;
@@ -28,14 +29,17 @@ body {
 
 .contents {
   justify-content: center;
+  width: 100%;
+  height: auto;
   margin-bottom: 30px;
   padding-bottom: 4em;
   padding-left: 25em;
   display: flex;
+  position: relative;
 }
 
 .contents > * {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .info {
@@ -52,13 +56,12 @@ body {
   margin: 0;
 }
 
-.user-pro {
-  width: 44em;
-  margin-top: 2em;
-  padding-right: 60px;
+.contents .user-pro {
+  max-width: 100%;
+  height: auto;
+  margin-right: 70em;
+  display: block;
   position: fixed;
-  bottom: 10em;
-  left: 10em;
 }
 
 #typed-name {
