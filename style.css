@@ -39,6 +39,7 @@ body{
 }
 
 .contents{
+    /* width: 90%;
     margin-bottom: 30px;
     padding-bottom: 4em;
     display: flex;
@@ -46,7 +47,15 @@ body{
     padding-left: 25em;
     width: 100%;
     height: auto;
-    position: relative;
+    position: relative; */
+
+    max-width: 1536px;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .1rem;
+    padding-right: .1rem;
 }
 
 
@@ -73,9 +82,9 @@ body{
     gap: 1rem;
     padding: 2px 15px 15px;
     align-items: center;
-    margin-bottom: 1em;
-    margin-top: 4em;
-    margin-left: 1em;
+    margin-bottom: 5em;
+    margin-top: 2em;
+    margin-left: 28em;
 }
 
 .info > *{
@@ -110,14 +119,14 @@ body{
 }
 
 #designer{
-    color: #F76CFE;
+    color: #c63bcd;
     font-family: "Caveat", cursive;
     font-weight: var(--font_weigth);
 
 }
 
 #reader{
-    color: #a397ee;
+    color: #7b69ed;
     font-family: "Caveat", cursive;
     font-weight: var(--font_weigth);
 
@@ -226,34 +235,44 @@ a:link{
 
  /* Base styles are already defined above */
 
-@media (max-width: 768px) {
+ /* min is above the break point, max is below the break point */
+/* @media (max-width: 1231px) {
     body {
-        place-content: flex-start; /* Align content at the top */
-        overflow: auto; /* Prevent content clipping */
-        padding: 10px;
-    }
+        place-content: flex-start; 
+        overflow: auto; 
+        padding: 20px;
+    } 
 
     .contents {
         flex-direction: column;
-        padding: 0; /* Remove excessive padding */
+        padding: 0; 
         margin: 0 auto;
     }
 
-    .contents .user-pro {
-        margin: 0 auto;
-        position: relative; /* Remove fixed positioning */
-        max-width: 90%; /* Adjust width for smaller screens */
+    .user-pro {
+        margin: 10 auto;
+        padding-bottom: 15em;
+        position: relative; 
+        max-width: 90%; 
+    }
+    .info{
+        padding-top: 10rem;
     }
 
     #typed-name {
-        font-size: 24px;
+        font-size: 44px;
         line-height: 36px;
         margin: 0 auto;
+     
         padding-bottom: 1rem;
+    }
+    #designer, #reader, #cine{
+        font-size: 40px;
+        padding: auto;
     }
 
     .user-about {
-        width: 90%;
+        width: auto;
         margin: 1rem auto;
         font-size: 14px;
         line-height: 1.6em;
@@ -268,21 +287,21 @@ a:link{
     }
 
     .button {
-        transform: rotate(0) scale(1.2); /* Adjust button size for smaller viewports */
+        transform: rotate(0) scale(1.2); 
         margin: 0 auto;
     }
 
     .dribble, .linkedin, .github, .email {
         width: 30px;
-        height: 30px; /* Adjust icon sizes */
+        height: 30px; 
     }
 
     #typed {
-        font-size: 29px; /* Adjust typed text size */
+        font-size: 29px; 
     }
-}
+}  */
 
-@media (max-width: 480px) {
+/* @media (max-width: 475px) {
     #typed-name {
         font-size: 33px;
         line-height: 28px;
@@ -298,6 +317,104 @@ a:link{
     }
 
     .button {
-        transform: scale(1); /* Adjust button for smaller screens */
+        transform: scale(1); 
     }
+} */
+
+@media (max-width: 1536px){
+    .contents{
+        max-width: 1280px;
+    }
+
+}
+@media (max-width: 1280px){
+    .contents{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px){
+    .contents{
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px){
+    .contents{
+        /* max-width: 648px; */
+        text-align: center; /* Center align contents */
+        padding: 0; /* Adjust padding for smaller screens */
+    }
+
+    .contents .user-pro {
+        position: relative; /* Remove fixed positioning */
+        margin: 0 auto 1rem; /* Center and add space below */
+        display: block;
+        max-width: 60%; /* Adjust size for mobile */
+    }
+
+    .info, .user-about, .socialsBtn {
+        margin: 0 auto; /* Center remaining content */
+        width: auto; /* Let them take up the available width */
+    }
+}
+
+@media (max-width: 648px){
+    .contents{
+        max-width: 475px;
+    }
+}
+
+@media (max-width: 475px){
+    .contents{
+        max-width: 100%;
+        text-align: center; 
+        padding: 0; 
+        display: block;
+    }
+
+    .contents .user-pro {
+        position: relative; 
+        margin: 0 auto 1rem; 
+        display: block;
+        max-width: 80%;
+    }
+
+    .info, .user-about, .socialsBtn {
+        width: 95%;
+        margin: 0 auto; 
+        width: auto; 
+        color: #c63bcd
+        
+    }
+    .socialsBtn{
+        display: flex;
+        width: 10px;
+        top: 29em;
+        height: 10px;
+        position: fixed;
+    }
+    .dribble, .linkedin, .github, .email{
+        width: 25px;
+        height: 25px;
+    }
+    .info{
+        padding-bottom: 15em;
+    }
+    
+    #typed-name{
+        font-size: 25px;
+        line-height: 2rem;
+        text-align: left;
+
+    }
+    .user-about{
+        font-size: 10px;
+        word-wrap: break-word;
+        width: 75%;
+        margin: 1rem;
+
+        text-align: left;
+    }
+    
 }

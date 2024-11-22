@@ -28,14 +28,13 @@ body {
 }
 
 .contents {
-  justify-content: center;
   width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-  padding-bottom: 4em;
-  padding-left: 25em;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: .1rem;
+  padding-right: .1rem;
   display: flex;
-  position: relative;
 }
 
 .contents > * {
@@ -45,9 +44,9 @@ body {
 .info {
   align-items: center;
   gap: 1rem;
-  margin-top: 4em;
-  margin-bottom: 1em;
-  margin-left: 1em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  margin-left: 28em;
   padding: 2px 15px 15px;
   position: relative;
 }
@@ -82,13 +81,13 @@ body {
 }
 
 #designer {
-  color: #f76cfe;
+  color: #c63bcd;
   font-family: Caveat, cursive;
   font-weight: var(--font_weigth);
 }
 
 #reader {
-  color: #a397ee;
+  color: #7b69ed;
   font-family: Caveat, cursive;
   font-weight: var(--font_weigth);
 }
@@ -174,79 +173,99 @@ a:link {
   }
 }
 
-@media (width <= 768px) {
-  body {
-    place-content: flex-start;
-    padding: 10px;
-    overflow: auto;
-  }
-
+@media (width <= 1536px) {
   .contents {
-    flex-direction: column;
-    margin: 0 auto;
+    max-width: 1280px;
+  }
+}
+
+@media (width <= 1280px) {
+  .contents {
+    max-width: 1024px;
+  }
+}
+
+@media (width <= 1024px) {
+  .contents {
+    max-width: 768px;
+  }
+}
+
+@media (width <= 768px) {
+  .contents {
+    text-align: center;
     padding: 0;
   }
 
   .contents .user-pro {
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 60%;
+    margin: 0 auto 1rem;
+    display: block;
     position: relative;
   }
 
-  #typed-name {
+  .info, .user-about, .socialsBtn {
+    width: auto;
     margin: 0 auto;
-    padding-bottom: 1rem;
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .user-about {
-    width: 90%;
-    margin: 1rem auto;
-    font-size: 14px;
-    line-height: 1.6em;
-  }
-
-  .socialsBtn {
-    justify-content: center;
-    gap: 10px;
-    margin: 0 auto;
-    padding: 1rem 0;
-    display: flex;
-  }
-
-  .button {
-    margin: 0 auto;
-    transform: rotate(0)scale(1.2);
-  }
-
-  .dribble, .linkedin, .github, .email {
-    width: 30px;
-    height: 30px;
-  }
-
-  #typed {
-    font-size: 29px;
   }
 }
 
-@media (width <= 480px) {
-  #typed-name {
-    font-size: 33px;
-    line-height: 28px;
+@media (width <= 648px) {
+  .contents {
+    max-width: 475px;
   }
+}
 
-  .user-about {
-    width: 100%;
-    font-size: 10px;
+@media (width <= 475px) {
+  .contents {
+    text-align: center;
+    max-width: 100%;
+    padding: 0;
+    display: block;
   }
 
   .contents .user-pro {
-    max-width: 90%;
+    max-width: 80%;
+    margin: 0 auto 1rem;
+    display: block;
+    position: relative;
   }
 
-  .button {
-    transform: scale(1);
+  .info, .user-about, .socialsBtn {
+    color: #c63bcd;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .socialsBtn {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    position: fixed;
+    top: 29em;
+  }
+
+  .dribble, .linkedin, .github, .email {
+    width: 25px;
+    height: 25px;
+  }
+
+  .info {
+    padding-bottom: 15em;
+  }
+
+  #typed-name {
+    text-align: left;
+    font-size: 25px;
+    line-height: 2rem;
+  }
+
+  .user-about {
+    word-wrap: break-word;
+    text-align: left;
+    width: 75%;
+    margin: 1rem;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=index.3a01df49.css.map */
