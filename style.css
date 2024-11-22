@@ -359,6 +359,66 @@ a:link{
     }
 }
 
+@media (max-width: 720px){
+
+    .contents {
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+        display: block; /* Stack items */
+    }
+
+    .contents .user-pro {
+        position: relative;
+        margin: 0 auto 1rem;
+        display: block;
+        max-width: 70%; /* Slightly smaller profile picture for better scaling */
+    }
+
+    .info, .user-about, .socialsBtn {
+        width: 90%; /* Slight padding for cleaner layout */
+        margin: 1rem auto; /* Uniform spacing */
+        color: #c63bcd;
+        text-align: center; /* Center-align info for better readability */
+    }
+
+    .socialsBtn {
+        display: flex;
+        justify-content: center; /* Align buttons horizontally */
+        gap: 10px; /* Space between buttons */
+        width: auto;
+        height: auto;
+        position: relative; /* Avoid fixed position to fit dynamic screen lengths */
+        margin-top: 2rem;
+    }
+
+    .dribble, .linkedin, .github, .email {
+        width: 30px; /* Slightly larger for touch accessibility */
+        height: 30px;
+    }
+
+    .info {
+        padding-bottom: 2rem; /* Reduced padding for better fit */
+        font-size: 14px; /* Adjusted size for readability */
+    }
+
+    #typed-name {
+        font-size: 22px; /* Scaled down for mobile screens */
+        line-height: 1.8rem;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    .user-about {
+        font-size: 12px;
+        word-wrap: break-word;
+        width: 85%; /* Shrink width for smaller screens */
+        margin: 1rem auto; /* Center and space the element */
+        text-align: center; /* Align text for easier readability */
+    }
+
+}
+
 @media (max-width: 648px){
     .contents{
         max-width: 475px;
